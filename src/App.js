@@ -7,6 +7,7 @@ import Stats from "./components/Stats";
 
 function App() {
   const [items, setItems] = useState([]);
+  console.log(items);
 
   function handleAddItem(item) {
     setItems((items) => [...items, item]);
