@@ -86,16 +86,26 @@ Check out the live demo of the application [here](https://travelinglist.netlify.
 ```css
 Traveling/
 ├── public/
+│   ├── favicon.ico
 │   ├── index.html
-│   └── styles.css
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
 ├── src/
 │   ├── components/
-│   │   ├── Header.js
-│   │   ├── Footer.js
+│   │   ├── Form.js
+│   │   ├── Item.js
+│   │   ├── Logo.js
+│   │   ├── PackingList.js
+│   │   ├── Stats.js
 │   ├── App.js
+│   ├── index.css
 │   └── index.js
-├── package.json
-└── README.md
+├── .gitignore
+├── README.md
+├── package-lock.json
+└── package.json
 ```
 
 ## Technologies Used
