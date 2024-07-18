@@ -21,9 +21,6 @@ Traveling is a user-friendly web application that helps users create and manage 
 - [Third-Party Libraries](#third-party-libraries)
 - [License](#license)
 
-## Introduction
-Traveling is a user-friendly web application that enables users to discover new travel destinations, create itineraries, and manage their travel plans.
-
 ## Features
 - Create and manage packing lists
 - Filter items in the list
