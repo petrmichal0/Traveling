@@ -1,7 +1,7 @@
 # Traveling
 
 ## Project Title and Description
-Traveling is a web application designed to help users explore and plan their travel destinations.
+Traveling is a user-friendly web application that helps users create and manage packing lists for their vacations. Users can easily add items to their lists, filter them, check them off as they are packed, remove items, and clear the entire list when needed.
 
 ## Badges
 ![Static Badge](https://img.shields.io/badge/status-online-brightgreen)
@@ -25,10 +25,11 @@ Traveling is a web application designed to help users explore and plan their tra
 Traveling is a user-friendly web application that enables users to discover new travel destinations, create itineraries, and manage their travel plans.
 
 ## Features
-- Explore various travel destinations
-- Create and manage travel itineraries
-- Save favorite destinations
-- User-friendly interface
+- Create and manage packing lists
+- Filter items in the list
+- Check off packed items
+- Remove individual items
+- Clear the entire list
 
 ## Installation
 
