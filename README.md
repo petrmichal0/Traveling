@@ -70,12 +70,14 @@ After starting, go to [http://localhost:3000](http://localhost:3000) in your web
   </tr>
   <tr>
     <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/47c5a790-0661-4b6a-a6a3-9fb4cadcebda" width="300" height="300" alt="Homepage">
+      <img src="https://github.com/user-attachments/assets/2af0a439-f8aa-4890-bf83-0407d1a0d018" width="300" height="300" alt="Homepage">
+       
     </td>
     <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/5b7af9ef-3b25-46b9-b46d-0cf23e704497" width="300" height="300" alt="Destination Details">
+      <img src="https://github.com/user-attachments/assets/745a3558-32dd-400a-8c65-b5e7c01a12f4" width="300" height="300" alt="Destination Details">
     </td>
   </tr>
+
 </table>
 
 ## Demo (link)
