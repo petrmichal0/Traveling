@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# Traveling
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Title and Description
+Traveling is a web application designed to help users explore and plan their travel destinations.
 
-## Available Scripts
+## Badges
+![Static Badge](https://img.shields.io/badge/status-online-brightgreen)
 
-In the project directory, you can run:
+## Quick Look
+<img src="https://github.com/user-attachments/assets/ab87aa89-3baf-42ff-9cf4-a6b36fad3948" width="700"  alt="Traveling App Demo">
 
-### `npm start`
+## Table of Content
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Demo (link)](#demo-link)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Third-Party Libraries](#third-party-libraries)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
+Traveling is a user-friendly web application that enables users to discover new travel destinations, create itineraries, and manage their travel plans.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+- Explore various travel destinations
+- Create and manage travel itineraries
+- Save favorite destinations
+- User-friendly interface
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
+- Node.js (v12 or higher)
+- npm (v6 or higher)
 
-### `npm run build`
+### Steps
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/petrmichal0/Traveling.git
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the project directory:
+    ```bash
+    cd Traveling
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-### `npm run eject`
+## Usage
+To start the application, run the following command:
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+After starting, go to [http://localhost:3000](http://localhost:3000) in your web browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<table>
+  <tr>
+    <th>Homepage</th>
+    <th>Destination Details</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <img src="https://github.com/user-attachments/assets/47c5a790-0661-4b6a-a6a3-9fb4cadcebda" width="300" height="300" alt="Homepage">
+    </td>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <img src="https://github.com/user-attachments/assets/5b7af9ef-3b25-46b9-b46d-0cf23e704497" width="300" height="300" alt="Destination Details">
+    </td>
+  </tr>
+</table>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Demo (link)
 
-## Learn More
+Check out the live demo of the application [here](https://travelinglist.netlify.app/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```css
+Traveling/
+├── public/
+│   ├── index.html
+│   └── styles.css
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+```
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#)
 
-### Analyzing the Bundle Size
+## Third-Party Libraries
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* React Router
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
