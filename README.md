@@ -64,7 +64,7 @@ After starting, go to [http://localhost:3000](http://localhost:3000) in your web
 <table>
   <tr>
     <th>Homepage</th>
-    <th>Destination Details</th>
+    <th>Manage Details</th>
   </tr>
   <tr>
     <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
