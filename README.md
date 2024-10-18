@@ -10,7 +10,7 @@ Traveling is a user-friendly web application that helps users create and manage 
 <img src="https://github.com/user-attachments/assets/478544d2-9be4-4121-af72-09f896c1cb7f" width="700"  alt="Traveling App Demo">
 
 ## Table of Content
-- [Introduction](#introduction)
+- [Project Title and Description](#project-title-and-description)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
