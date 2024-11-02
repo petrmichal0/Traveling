@@ -3,12 +3,19 @@ import Form from "./components/Form";
 import Logo from "./components/Logo";
 import PackingList from "./components/PackingList";
 import Stats from "./components/Stats";
+import { motion } from "framer-motion";
 
 type Item = {
   id: number;
   description: string;
   quantity: number;
   packed: boolean;
+};
+
+const pageTransition = {
+  initial: { x: "-100vw" },
+  animate: { x: 0 },
+  transition: { duration: 1, delay: 0.5 },
 };
 
 function App() {
@@ -38,7 +45,7 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <motion.div className="app" {...pageTransition}>
       <Logo />
       <Form onAddItems={handleAddItem} />
       <PackingList
@@ -48,7 +55,7 @@ function App() {
         onHandleCleanList={handleCleanList}
       />
       <Stats items={items} />
-    </div>
+    </motion.div>
   );
 }
 
