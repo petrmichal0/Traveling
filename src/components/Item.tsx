@@ -11,7 +11,7 @@ type ItemProps = {
 
 function Item({ item, onDeleteItem, onToggleItem }: ItemProps) {
   return (
-    <li>
+    <>
       <input
         type="checkbox"
         checked={item.packed}
@@ -21,7 +21,7 @@ function Item({ item, onDeleteItem, onToggleItem }: ItemProps) {
         {item.quantity} {item.description}
       </span>
       <button onClick={() => onDeleteItem(item.id)}>❌</button>
-    </li>
+    </>
   );
 }
 

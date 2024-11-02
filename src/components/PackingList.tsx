@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
 import Item from "./Item";
 
 type Item = {
@@ -13,6 +15,13 @@ type PackingListProps = {
   onDeleteItem: (id: number) => void;
   onToggleItem: (id: number) => void;
   onHandleCleanList: () => void;
+};
+
+const itemAnimation = {
+  initial: { opacity: 0 },
+  animate: { opacity: 1, x: 0 },
+  exit: { opacity: 0 },
+  transition: { duration: 0.5 },
 };
 
 function PackingList({
@@ -38,14 +47,17 @@ function PackingList({
   return (
     <div className="list">
       <ul>
-        {sortedItems.map((item) => (
-          <Item
-            item={item}
-            key={item.id}
-            onDeleteItem={onDeleteItem}
-            onToggleItem={onToggleItem}
-          />
-        ))}
+        <AnimatePresence>
+          {sortedItems.map((item) => (
+            <motion.li key={item.id} {...itemAnimation}>
+              <Item
+                item={item}
+                onDeleteItem={onDeleteItem}
+                onToggleItem={onToggleItem}
+              />
+            </motion.li>
+          ))}
+        </AnimatePresence>
       </ul>
       <div className="actions">
         <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
