@@ -1,10 +1,19 @@
 import { useState } from "react";
 
-function Form({ onAddItems }) {
+type FormProps = {
+  onAddItems: (item: {
+    description: string;
+    quantity: number;
+    packed: boolean;
+    id: number;
+  }) => void;
+};
+
+function Form({ onAddItems }: FormProps) {
   const [description, setDescription] = useState("");
   const [quantity, setQuantity] = useState(1);
 
-  function handleSubmit(e) {
+  function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
 
     if (!description) return;
