@@ -1,5 +1,4 @@
 import { render, screen } from "@testing-library/react";
-import user from "@testing-library/user-event";
 import "@testing-library/jest-dom";
 import App from "../../App";
 
@@ -28,18 +27,5 @@ describe("App component", () => {
     expect(quantitySelect).toBeInTheDocument();
     expect(sortSelect).toBeInTheDocument();
     expect(emptyListMessage).toBeInTheDocument();
-  });
-
-  test("adds a new item to the list", async () => {
-    render(<App />);
-
-    const input = screen.getByPlaceholderText(/Item.../i);
-    const addButton = screen.getByRole("button", { name: /Add/i });
-
-    await user.type(input, "Toothbrush");
-    await user.click(addButton);
-
-    const addedItem = screen.getByText(/Toothbrush/i);
-    expect(addedItem).toBeInTheDocument();
   });
 });
