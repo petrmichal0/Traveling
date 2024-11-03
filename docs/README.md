@@ -66,11 +66,15 @@ After starting, go to [http://localhost:3000](http://localhost:3000) in your web
   </tr>
   <tr>
     <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/2af0a439-f8aa-4890-bf83-0407d1a0d018" width="300" height="300" alt="Homepage">   
-    </td>
-    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
-      <img src="https://github.com/user-attachments/assets/745a3558-32dd-400a-8c65-b5e7c01a12f4" width="300" height="300" alt="Destination Details">
-    </td>
+  <a href="https://github.com/user-attachments/assets/2af0a439-f8aa-4890-bf83-0407d1a0d018" target="_blank">
+    <img src="https://github.com/user-attachments/assets/2af0a439-f8aa-4890-bf83-0407d1a0d018" width="300" height="300" alt="Homepage">
+  </a>
+</td>
+<td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+  <a href="https://github.com/user-attachments/assets/745a3558-32dd-400a-8c65-b5e7c01a12f4" target="_blank">
+    <img src="https://github.com/user-attachments/assets/745a3558-32dd-400a-8c65-b5e7c01a12f4" width="300" height="300" alt="Destination Details">
+  </a>
+</td>
   </tr>
 
 </table>
