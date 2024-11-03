@@ -7,7 +7,7 @@ describe("App component", () => {
     render(<App />);
 
     const heading = screen.getByRole("heading", { name: /Far away/i });
-    const formHeading = screen.getByText(/What do you need for your trip\?/i);
+    const formHeading = screen.getByText("What do you need for your trip?");
     const input = screen.getByPlaceholderText(/Item.../i);
     const addButton = screen.getByRole("button", { name: /Add/i });
     const clearButton = screen.getByRole("button", { name: /Clear list/i });
@@ -16,7 +16,7 @@ describe("App component", () => {
       .getByText("Sort by input order")
       .closest("select");
     const emptyListMessage = screen.getByText(
-      /Start adding some items to your packing list/i
+      "Start adding some items to your packing list"
     );
 
     expect(heading).toBeInTheDocument();
