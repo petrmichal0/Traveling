@@ -12,15 +12,13 @@ const sampleItems = [
 describe("PackingList component", () => {
   test("renders items", () => {
     const onDeleteItem = jest.fn();
-    const onToggleItem = jest.fn();
-    const onHandleCleanList = jest.fn();
 
     render(
       <PackingList
         items={sampleItems}
         onDeleteItem={onDeleteItem}
-        onToggleItem={onToggleItem}
-        onHandleCleanList={onHandleCleanList}
+        onToggleItem={() => {}}
+        onHandleCleanList={() => {}}
       />
     );
 
@@ -32,16 +30,14 @@ describe("PackingList component", () => {
   });
 
   test("handles delete", async () => {
-    const onDeleteItem = jest.fn();
-    const onToggleItem = jest.fn();
-    const onHandleCleanList = jest.fn();
+    const onDeleteItem = jest.fn(); 
 
     render(
       <PackingList
         items={sampleItems}
         onDeleteItem={onDeleteItem}
-        onToggleItem={onToggleItem}
-        onHandleCleanList={onHandleCleanList}
+        onToggleItem={() => {}}
+        onHandleCleanList={() => {}}
       />
     );
 
